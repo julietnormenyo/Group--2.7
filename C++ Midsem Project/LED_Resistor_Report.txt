@@ -1,0 +1,38 @@
+========== LED RESISTOR VALUE CALCULATOR SYSTEM REPORT ==========
+
+REPORT #1
+LED Label/Colour : Red
+Supply Voltage : 9.00 V
+LED Forward Voltage : 3.00 V
+Desired LED Current : 23.00 mA
+Calculated Resistor : 260.87 Ohms
+Validity : Valid
+LED Current Status : Safe
+Overall Safety : SAFE
+Recommendation : Design is within safe limits. Use a standard 1W resistor.
+---------------------------------------------------
+
+REPORT #2
+LED Label/Colour : Green
+Supply Voltage : 9.00 V
+LED Forward Voltage : 12.00 V
+Desired LED Current : 43.00 mA
+Calculated Resistor : -1.00 Ohms
+Validity : Invalid!
+LED Current Status : N/A
+Overall Safety : INVALID
+Recommendation : Design not accepted. Check that Vs > Vf > 0 and Current > 0.
+---------------------------------------------------
+
+REPORT #3
+LED Label/Colour : Blue
+Supply Voltage : 9.00 V
+LED Forward Voltage : 4.00 V
+Desired LED Current : -5.00 mA
+Calculated Resistor : -1.00 Ohms
+Validity : Invalid!
+LED Current Status : N/A
+Overall Safety : INVALID
+Recommendation : Design not accepted. Check that Vs > Vf > 0 and Current > 0.
+---------------------------------------------------
+
