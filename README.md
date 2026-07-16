@@ -3,7 +3,7 @@
 
 A simple C++98 console application that calculates the current-limiting resistor, power dissipation, and safety status for LED circuits. It also generates a detailed report and saves it to a `.txt` file.
 
-## 📌 About
+##  About
 
 This project was built for Analog Electronics / Circuit Design to automate LED resistor calculations and validate if a design is safe to use with standard components.
 
@@ -14,7 +14,7 @@ Instead of doing manual math for every LED, this tool handles:
 - Multi-LED batch processing
 - Automatic report export
 
-## ✨ Features
+##  Features
 
 - **Resistor Calculation**: `R = (Vs - Vf) / I`
 - **Power Calculation**: `P = (Vs - Vf) * I` with 2x safety factor
@@ -31,7 +31,7 @@ Instead of doing manual math for every LED, this tool handles:
 - **Libraries**: `<iostream>`, `<fstream>`, `<cmath>`, `<vector>`, `<iomanip>`
 - **Platform**: Windows / Linux / Mac
 
-## 🚀 Getting Started
+##  Getting Started
 
 2. **Compile**
 Using g++:bashg++ main.cpp -o LEDCalculatorUsing Dev-C++, Code::Blocks, or VS: Just open main.cpp and build.
@@ -39,7 +39,7 @@ Using g++:bashg++ main.cpp -o LEDCalculatorUsing Dev-C++, Code::Blocks, or VS: J
 3. **RUN**
  bash./LEDCalculator
 
-📊 EXAMPLE OUTPUT
+ EXAMPLE OUTPUT
 ========== LED CIRCUIT DESIGN REPORT #1 ==========
 LED Label/Colour : White LED
 Supply Voltage (Vs) : 80.00 V
@@ -57,15 +57,15 @@ Overall Safety : REQUIRING REVIEW
 
 Report saved successfully to 'LED_Resistor_Report.txt'
 
-📄**FILE STRUCTURE**
+**FILE STRUCTURE**
 LED-Resistor-Calculator/
 │
 ├── main.cpp                      # Source code
 ├── LED_Resistor_Report.txt       # Auto-generated report
 ├── README.md                     # This file
-└── .gitignore
 
-⚠️ **SAFETY NOTES**
+
+ **SAFETY NOTES**
 Standard 5mm LEDs are typically rated for 20mA. This tool flags anything >30mA as Unsafe!Always choose a resistor wattage >= 2x the calculated power dissipation.This tool is for educational and prototyping use. Always double-check with a datasheet.📜 LicenseThis project is licensed under the MIT License - free to use for learning and personal projects.👨‍💻 
 
 **AUTHOR:**  GROUP 2.7
