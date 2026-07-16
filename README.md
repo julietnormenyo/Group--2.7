@@ -26,7 +26,7 @@ Instead of doing manual math for every LED, this tool handles:
 - **Input Validation**: Rejects invalid inputs like `Vs <= Vf` or `I <= 0`
 - **C++98 Compatible**: Uses only standard library, no external dependencies
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language**: C++98
 - **Libraries**: `<iostream>`, `<fstream>`, `<cmath>`, `<vector>`, `<iomanip>`
 - **Platform**: Windows / Linux / Mac
@@ -66,7 +66,7 @@ LED-Resistor-Calculator/
 
 
  **SAFETY NOTES**
-Standard 5mm LEDs are typically rated for 20mA. This tool flags anything >30mA as Unsafe!Always choose a resistor wattage >= 2x the calculated power dissipation.This tool is for educational and prototyping use. Always double-check with a datasheet.📜 LicenseThis project is licensed under the MIT License - free to use for learning and personal projects.👨‍💻 
+Standard 5mm LEDs are typically rated for 20mA. This tool flags anything >30mA as Unsafe!Always choose a resistor wattage >= 2x the calculated power dissipation.This tool is for educational and prototyping use. Always double-check with a datasheet. LicenseThis project is licensed under the MIT License - free to use for learning and personal projects.👨‍💻 
 
 **AUTHOR:**  GROUP 2.7
 INTRODUCTION TO COMPUTER PROGRAMMING (C++) BEE 208
