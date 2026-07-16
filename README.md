@@ -66,7 +66,24 @@ LED-Resistor-Calculator/
 
 
  **SAFETY NOTES**
-Standard 5mm LEDs are typically rated for 20mA. This tool flags anything >30mA as Unsafe!Always choose a resistor wattage >= 2x the calculated power dissipation.This tool is for educational and prototyping use. Always double-check with a datasheet. LicenseThis project is licensed under the MIT License - free to use for learning and personal projects.👨‍💻 
+Standard 5mm LEDs are typically rated for 20mA. This tool flags anything >30mA as Unsafe!Always choose a resistor wattage >= 2x the calculated power dissipation.This tool is for educational and prototyping use. Always double-check with a datasheet. LicenseThis project is licensed under the MIT License - free to use for learning and personal projects.
 
 **AUTHOR:**  GROUP 2.7
 INTRODUCTION TO COMPUTER PROGRAMMING (C++) BEE 208
+
+
+
+
+
+## **Suggested Role**
+Odoom Bright (01242600B) -	Project lead 
+Dorcas Asamoah Kissi (01244084B) -	Algorithm writer
+Michael Osei Bokor (01246900B) -	Pseudocode writer
+Awudu Wuzeima (01243137B)	- Flowchart designer
+Aboagye Jonas Frimpong (01241449B) -	C++ programmer
+Monney Christopher (01243455B) -	C++ programmer
+Aryitey Aaron (01246383B) - Testing lead
+Juliet Normenyo (01244425B) - GitHub manager
+Oppong duah Immanuel  -	Documentation lead
+Naa Larley Lartey Perida (01245581B) -	Presentation lead
+
