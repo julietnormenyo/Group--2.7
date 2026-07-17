@@ -167,7 +167,7 @@ public:
             displayReport(rep, i);
         }
         saveToFile();
-        cout << "\nThank you for using the LED Resistor Calculator!\n";
+        cout << "\nThanks for using the LED Resistor Calculator!\n";
     }
 };
 
